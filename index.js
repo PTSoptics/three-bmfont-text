@@ -1,3 +1,5 @@
+THREE = require('three');
+
 var createLayout = require('layout-bmfont-text')
 var inherits = require('inherits')
 var createIndices = require('quad-indices')
