@@ -19,7 +19,7 @@
     "layout-bmfont-text": "^1.2.0",
     "object-assign": "^4.0.1",
     "quad-indices": "^2.0.1",
-    "three-buffer-vertex-data": "^1.0.0"
+    "three-buffer-vertex-data": "git@github.com:PTSoptics/three-buffer-vertex-data.git"
   },
   "devDependencies": {
     "bluebird": "^2.9.14",
