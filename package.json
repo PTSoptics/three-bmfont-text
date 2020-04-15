@@ -1,6 +1,6 @@
 {
-  "name": "three-bmfont-text",
-  "version": "2.1.0",
+  "name": "@ptsoptics/three-bmfont-text",
+  "version": "2.1.1",
   "description": "renders BMFont files in ThreeJS with word-wrapping",
   "main": "index.js",
   "license": "MIT",
@@ -15,11 +15,11 @@
     ]
   },
   "dependencies": {
+    "@ptsoptics/three-buffer-vertex-data": "^1.0.2",
     "inherits": "^2.0.1",
     "layout-bmfont-text": "^1.2.0",
     "object-assign": "^4.0.1",
-    "quad-indices": "^2.0.1",
-    "three-buffer-vertex-data": "git@github.com:PTSoptics/three-buffer-vertex-data.git"
+    "quad-indices": "^2.0.1"
   },
   "devDependencies": {
     "bluebird": "^2.9.14",
@@ -67,7 +67,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jam3/three-bmfont-text.git"
+    "url": "git://github.com/PTSoptics/three-bmfont-text.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "homepage": "https://github.com/Jam3/three-bmfont-text",
   "bugs": {
