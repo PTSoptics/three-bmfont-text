@@ -6,7 +6,7 @@
 
 global.THREE = require('three')
 var quote = require('sun-tzu-quotes')
-var buffer = require('three-buffer-vertex-data')
+var buffer = require('@ptsoptics/three-buffer-vertex-data')
 var createOrbitViewer = require('three-orbit-viewer')(THREE)
 var createBackground = require('three-vignette-background')
 var createText = require('../')
