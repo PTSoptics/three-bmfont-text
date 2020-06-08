@@ -11,7 +11,14 @@ var utils = require('./lib/utils')
 
 var Base = THREE.BufferGeometry
 
-module.exports = function createTextGeometry (opt) {
+module.exports = {
+  createTextGeometry: createTextGeometry,
+  BasicShader: require('./shaders/basic'),
+  MultipageShader: require('./shaders/multipage'),
+  SDFShader: require('./shaders/sdf')
+}
+
+function createTextGeometry (opt) {
   return new TextGeometry(opt)
 }
 
