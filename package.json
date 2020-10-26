@@ -1,6 +1,6 @@
 {
   "name": "@ptsoptics/three-bmfont-text",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "renders BMFont files in ThreeJS with word-wrapping",
   "main": "index.js",
   "license": "MIT",
@@ -15,7 +15,7 @@
     ]
   },
   "dependencies": {
-    "@ptsoptics/three-buffer-vertex-data": "^1.1.1",
+    "@ptsoptics/three-buffer-vertex-data": "^1.1.2",
     "inherits": "^2.0.1",
     "layout-bmfont-text": "^1.2.0",
     "object-assign": "^4.0.1",
